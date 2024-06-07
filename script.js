@@ -3,7 +3,6 @@
                 document.querySelectorAll('.tab').forEach(section => {
                     section.classList.remove('active');
                 });
-                document.getElementById(this.getAttribute('data-target')).classList.add('active');
                     
                 document.querySelectorAll('.content').forEach(section => {
                     section.classList.remove('active');
