@@ -2,9 +2,12 @@
             tab.addEventListener('click', function() {
                 document.querySelectorAll('.tab').forEach(section => {
                     section.classList.remove('active');
-                }).querySelectorAll('.content').forEach(section => {
+                });
+                document.querySelectorAll('.content').forEach(section => {
                     section.classList.remove('active');
                 });
-                document.getElementById(this.getAttribute('data-target')).classList.add('active');
+                document.getElementById(this.getAttribute('data-target')).forEach(section =>{
+                        section.classList.add('active')
+                });
             });
         });
