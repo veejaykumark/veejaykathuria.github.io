@@ -30,6 +30,11 @@ body {
             border-radius: 5px;
             cursor: pointer;
         }
+        .tab.active {
+            background-color: #fff;
+            text-color: #000
+        }
+
         .tabs a:hover {
             background-color: #ddd;
         }
