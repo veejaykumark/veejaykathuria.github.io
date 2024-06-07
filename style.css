@@ -21,6 +21,7 @@ body {
             justify-content: center;
             background-color: #f1f1f1;
             padding: 10px 0;
+            
         }
         .tabs a {
             margin: 0 15px;
@@ -32,7 +33,9 @@ body {
         }
         .tab.active {
             background-color: #fff;
-            text-color: #000
+            text-color: #000;
+            text: bold;
+            border-bottom: 1px solid #ccc;
         }
 
         .tabs a:hover {
