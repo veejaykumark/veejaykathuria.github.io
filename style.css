@@ -34,7 +34,7 @@ body {
         .tab.active {
             background-color: #fff;
             text-color: #000;
-            text: bold;
+            font-weight: bold;
             border-bottom: 1px solid #ccc;
         }
 
