@@ -35,7 +35,7 @@ body {
             background-color: #fff;
             text-color: #000;
             font-weight: bold;
-            border-bottom: 1px solid #ccc;
+            border: 1px solid #ccc;
         }
 
         .tabs a:hover {
