@@ -6,7 +6,7 @@
                 document.querySelectorAll('.content').forEach(section => {
                     section.classList.remove('active');
                 });
-                document.getElementsById(this.getAttribute('data-target')).forEach(section =>{
+                document.querySelectorAll('[id='+this.getAttribute('data-target')+']').forEach(section =>{
                         section.classList.add('active')
                 });
             });
