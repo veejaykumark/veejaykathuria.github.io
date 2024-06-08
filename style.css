@@ -3,18 +3,31 @@ body {
             margin: 0;
             padding: 0;
         }
-        .banner {
-            background-color: #00008B;
+          .banner {
+            background-color: #4CAF50;
             color: white;
             text-align: center;
             padding: 50px 0;
+            position: relative;
+        }
+        .profile-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: -75px; /* Adjust as needed to partially overlay the banner */
         }
         .profile-pic {
-            display: block;
-            margin: 20px auto;
-            width: 160px;
+            width: 150px;
             height: 150px;
             border-radius: 50%;
+            border: 5px solid white; /* Optional: adds a white border around the profile pic */
+        }
+        .profile-title {
+            margin-top: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
         }
         .tabs {
             display: flex;
