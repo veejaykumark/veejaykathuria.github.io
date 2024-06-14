@@ -23,6 +23,9 @@ body {
             height: 175px;
             border-radius: 50%;
             border: 5px solid white; /* Optional: adds a white border around the profile pic */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
         .profile-title {
             margin-top: 5px;
